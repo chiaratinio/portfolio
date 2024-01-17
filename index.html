@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/08e9a50577.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="./css/style.css">
+
+        <!--Title-->
+        <title>Portfolio | Chiara Tinio</title>
+    </head>
+
+    <body>
+
+        <!--start navbar--> 
+        <header>
+            <nav class="navbar">
+                <div class="title"><img src="./images/CAT logo.png" alt="" style="height:35px;"></div>
+
+                <a class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+
+                <div class="navbar-links">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#experience">Experiences / Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!--end navbar--> 
+
+        <!--home-->
+        <section class="home" id="home">
+            <div class="container">
+                <img class="bounce-img" src="./images/icon3.png" alt="">
+
+                <div class="content">
+                    <p>Hello! </p>
+                    <h1>I'm Chiara Tinio</h1>
+                    <h2>I like <span class="typing"></span></h2>
+
+                    <div class="btn">
+                        <button class="btn btn1" type="submit" onclick="window.location.href = '#about';">
+                            <div class ="bounce">
+                                More About Me  
+                                <i class="fa-solid fa-circle-down" style="color: #291b25;"></i>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--about me-->
+        <section class="about" id="about">
+            <h1><i class="fa-solid fa-id-card-clip fa-xs" style="color: #291b25;"></i>  About Me</h1> 
+            <div class="container">
+                <div class="content">
+                    <h1>I'm <span>Chiara</span>  ˖⁺‧₊˚✦</h1>
+                    <p class='sub'>but you can also call me <span style="color: #fff9c2"><strong>Chi ‎♡‧₊˚</strong></span> .</p>
+                    <br>
+                    <p class='txt'>
+                        I'm a 21-year-old Filipina, currently in my fourth year of college studying Computer Science at University of Santo Tomas (UST). 
+                        Programming and graphic design have always captivated me, allowing me to unleash my imagination and creatively solve problems. 
+                        I enjoy coding and witnessing the results firsthand. Additionally, I have a keen interest in graphic design, creating visually pleasing 
+                        graphics that can effectively communicate its message. My goal is to merge my programming skills with graphic design to produce visually appealing and user-friendly 
+                        digital experiences. I also strive to constantly expand my knowledge and skills as both a designer and developer.
+                    </p>
+                    <br>
+                    <!--                    <p class='txt'>
+                                            <span style="font-weight: 600;">Location: </span>
+                                            Paranaque City, Metro Manila, Philippines
+                                        </p>
+                                        <p class='txt'>
+                                            <span style="font-weight: 600;">Email: </span>
+                                            chiara.allysa.tinio@gmail.com
+                                        </p>-->
+                    <div class="btn">
+                        <button class="btn btn1" type="submit" onclick="window.location.href = '#about';">
+                            <div class ="bounce">
+                                Curriculum Vitae&nbsp;
+                                <i class="fa-solid fa-file fa-s" style="color: #291b25;"></i>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <img src="./images/me.jpg" alt="">
+            </div>
+        </section>
+
+        <!--skills-->
+        <section class="skills" id="skills">
+            <h1> <i class="fa-solid fa-laptop-code"></i> Skills & Abilities</h1>
+
+
+            <div class="container">
+                <!--HTML-->
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="./logos/html-5.png" class="skill-icon">
+                        </div>
+                        <h3>HTML 5</h3>
+                    </div>
+                    <p>I can create web pages, format text, add images, create forms, 
+                        and utilize various HTML5 features to structure and present content 
+                        on the web.</p>
+                </div>
+
+                <!--CSS-->
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="./logos/css-3.png" class="skill-icon">
+                        </div>
+                        <h3>CSS 3</h3>
+                    </div>
+                    <p>I can apply styles to HTML elements, design responsive layouts, 
+                        customize fonts, colors, and backgrounds, and create animations 
+                        and transitions for web pages.</p>
+                </div>
+
+                <!--JavaScript-->
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="./logos/js.png" class="skill-icon">
+                        </div>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <p>I can write interactive and dynamic scripts, manipulate HTML elements, 
+                        handle events, validate forms, and create animations for client-side web 
+                        development. </p>
+                </div>
+
+                <!--Java-->
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="./logos/java.png" class="skill-icon">
+                        </div>
+                        <h3>Java</h3>
+                    </div>
+                    <p>I can develop desktop applications, work with object-oriented programming 
+                        concepts, and utilize various Java libraries and frameworks.</p>
+                </div>
+
+                <!--Android Studio-->
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="./logos/android-studio.png" class="skill-icon"">
+                        </div>
+                        <h3>Android Studio</h3>
+                    </div>
+                    <p>I can create Android applications, design user interfaces, handle user 
+                        input, utilize device features, and implement backend functionality.</p>
+                </div>
+
+                <!--Python-->
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="./logos/python.png" class="skill-icon">
+                        </div>
+                        <h3>Python</h3>
+                    </div>
+                    <p>I have a basic understanding of Python and its libraries, 
+                        specifically for implementing machine learning algorithms and models.</p>
+                </div>
+
+                <!--MySQL-->
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="./logos/mysql.png" class="skill-icon">
+                        </div>
+                        <h3>MySQL</h3>
+                    </div>
+                    <p>I can design and create databases, write SQL queries to retrieve and 
+                        manipulate data, implement data models, and optimize database performance.</p>
+                </div>
+
+                <!--Photoshop-->
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="./logos/photoshop.png" class="skill-icon">
+                        </div>
+                        <h3>Photoshop</h3>
+                    </div>
+                    <p>I can edit and manipulate images and create stunning visual designs 
+                        with precision and creativity.</p>
+                </div>
+
+                <!--Canva-->
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="./logos/canva.png" class="skill-icon">
+                        </div>
+                        <h3>Canva</h3>
+                    </div>
+                    <p>I can create visually appealing designs, social media graphics, and 
+                        marketing materials with ease.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--education-->
+        <section class="education" id="education">
+            <h1><i class="fa-solid fa-user-graduate" style="color: #291b25;"></i>&nbspMy Education</h1>
+
+            <div class="timeline">
+
+                <div class="container left-container">
+                    <img src="school/ust logo.png">
+                    <div class="text-box">
+                        <h2>University of Santo Tomas</h2>
+                        <small><strong><em>B.S. Computer Science</em></strong> | 2020-2024</small>
+                        <ul>
+                            <li>Developed web applications using HTML, CSS, and JavaScript.</li>
+                            <li>Designed and implemented database systems using SQL.</li>
+                            <li>Gained proficiency in Java, Android Studio, Python, and MySQL 
+                                through coursework.</li>
+                            <li>Developed proficiency in applying Python for machine learning 
+                                tasks, such as data preprocessing, model training, and evaluation.</li>
+                            <li>Gained practical experience in the entire software engineering process, 
+                                including documentations, requirements gathering, system design, implementation, testing, 
+                                and deployment.</li>
+                        </ul>
+                        <span class="left-container-arrow"></span>
+                    </div>
+                </div>
+
+                <div class="container right-container">
+                    <img src="school/feu-a logo.png">
+                    <div class="text-box">
+                        <h2>FEU Alabang</h2>
+                        <small><strong><em>Science, Technology, Engineering, and Mathematics (STEM)</em></strong> | 2018-2020</small>
+                        <ul>
+                            <li>Gained strong foundational knowledge in Science, Technology, Engineering, and Mathematics.</li>
+                            <li>Gained a deep understanding of STEM concepts and developed critical thinking, problem-solving, and analytical skills</li>
+                        </ul>
+                        <span class="right-container-arrow"></span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--experiences-->
+        <section class="experience" id="experience">
+            <h1><i class="fa-solid fa-briefcase" style="color: #291b25;"></i>&nbsp Experiences / Projects</h1>
+
+            <div class="project">
+                <h2 class="titleExp">&nbsp Freelance Work</h2>
+                <p>My freelance venture, specializes in delivering captivating graphic design solutions. With expertise in 
+                    Adobe Photoshop, Canva, and a keen eye for aesthetics, I've crafted visually appealing designs for diverse clients. 
+                    My work includes logo design, branding materials, brochures, infographics, powerpoints, and other graphics.
+                </p>
+                <div class="wrapper">
+                    <i class="fa-solid fa-angle-left" data-carousel="0"></i>
+                    <div class="carousel">
+                        <img src="freelance/1.png" alt="img" draggable="false">
+                        <img src="freelance/2.png" alt="img" draggable="false">
+                        <img src="freelance/3.png" alt="img" draggable="false">
+                        <img src="freelance/4.png" alt="img" draggable="false">
+                        <img src="freelance/5.png" alt="img" draggable="false">
+                        <img src="freelance/6.png" alt="img" draggable="false">
+                        <img src="freelance/7.png" alt="img" draggable="false">
+                    </div>
+                    <i class="fa-solid fa-angle-right" data-carousel="0"></i>
+                </div>
+            </div>
+
+            <div class="project">
+                <h2>&nbsp T&J Travel and Tours Website Development</h2>
+                <p><em>TJ Travel and Tours</em> is a well-established travel agency since 1998 that recently encountered website challenges 
+                    with Yahoo Site Builders. In response and as a software engineering project, the group made a booking system utilizing 
+                    HTML, CSS, JavaScript, Java, and MySQL. This user-friendly system streamlines online bookings, empowering customers 
+                    and enhancing the company's efficiency in managing reservations. </p>
+                <div class="wrapper">
+                    <i class="fa-solid fa-angle-left" data-carousel="1"></i>
+                    <div class="carousel">
+                        <img src="tj/1.png" alt="img" draggable="false">
+                        <img src="tj/2.png" alt="img" draggable="false">
+                        <img src="tj/3.png" alt="img" draggable="false">
+                        <img src="tj/4.png" alt="img" draggable="false">
+                        <img src="tj/5.png" alt="img" draggable="false">
+                        <img src="tj/6.png" alt="img" draggable="false">
+                        <img src="tj/7.png" alt="img" draggable="false">
+                        <img src="tj/8.png" alt="img" draggable="false">
+                        <img src="tj/9.png" alt="img" draggable="false">
+                        <img src="tj/10.png" alt="img" draggable="false">
+                        <img src="tj/11.png" alt="img" draggable="false">
+                        <img src="tj/12.png" alt="img" draggable="false">
+                        <img src="tj/13.png" alt="img" draggable="false">
+                        <img src="tj/14.png" alt="img" draggable="false">
+                        <img src="tj/15.png" alt="img" draggable="false">
+                        <img src="tj/16.png" alt="img" draggable="false">
+                        <img src="tj/17.png" alt="img" draggable="false">
+                        <img src="tj/18.png" alt="img" draggable="false">
+                        <img src="tj/19.png" alt="img" draggable="false">
+                        <img src="tj/20.png" alt="img" draggable="false">
+                        <img src="tj/21.png" alt="img" draggable="false">
+                        <img src="tj/22.png" alt="img" draggable="false">
+                        <img src="tj/23.png" alt="img" draggable="false">
+                        <img src="tj/24.png" alt="img" draggable="false">
+                        <img src="tj/25.png" alt="img" draggable="false">
+                        <img src="tj/26.png" alt="img" draggable="false">
+                        <img src="tj/27.png" alt="img" draggable="false">
+                        <img src="tj/28.png" alt="img" draggable="false">
+                        <img src="tj/29.png" alt="img" draggable="false">
+                        <img src="tj/30.png" alt="img" draggable="false">
+                        <img src="tj/31.png" alt="img" draggable="false">
+                        <img src="tj/32.png" alt="img" draggable="false">
+                        <img src="tj/33.png" alt="img" draggable="false">
+                        <img src="tj/34.png" alt="img" draggable="false">
+                        <img src="tj/35.png" alt="img" draggable="false">
+                        <img src="tj/36.png" alt="img" draggable="false">
+                        <img src="tj/37.png" alt="img" draggable="false">
+                        <img src="tj/38.png" alt="img" draggable="false">
+                        <img src="tj/39.png" alt="img" draggable="false">
+                        <img src="tj/40.png" alt="img" draggable="false">
+                        <img src="tj/41.png" alt="img" draggable="false">
+                        <img src="tj/42.png" alt="img" draggable="false">
+                        <img src="tj/43.png" alt="img" draggable="false">
+                        <img src="tj/44.png" alt="img" draggable="false">
+                        <img src="tj/45.png" alt="img" draggable="false">
+                    </div>
+                    <i class="fa-solid fa-angle-right" data-carousel="1"></i>
+                </div>
+            </div>
+
+            <div class="project">
+                <h2>&nbsp The Untold Story Mobile Application</h2>
+                <p><em>The Untold Story</em> is a mobile diary application enabling users to create, read, update, delete, 
+                    search, and sort diary entries. Designed for simplicity and functionality, it serves as a planner 
+                    or journal, storing memories for future reflection. Developed using Java, Android Studio, and SQLite, 
+                    the application provides a seamless and secure user experience on Android devices.</p>
+                <div class="wrapper">
+                    <i class="fa-solid fa-angle-left" data-carousel="2"></i>
+                    <div class="carousel">
+                        <img src="tus/1.png" alt="img" draggable="false">
+                        <img src="tus/2.png" alt="img" draggable="false">
+                        <img src="tus/3.png" alt="img" draggable="false">
+                        <img src="tus/4.png" alt="img" draggable="false">
+                        <img src="tus/5.png" alt="img" draggable="false">
+                        <img src="tus/6.png" alt="img" draggable="false">
+                        <img src="tus/7.png" alt="img" draggable="false">
+                        <img src="tus/8.png" alt="img" draggable="false">
+                    </div>
+                    <i class="fa-solid fa-angle-right" data-carousel="2"></i>
+                </div>
+            </div>
+
+            <div class="project">
+                <h2>&nbsp Love, Sparkle Web Application</h2>
+                <p><em>Love, Sparkle</em> is a brand meticulously crafted for a web application project, skillfully developed 
+                    using HTML, Java, and MySQL. This dynamic platform invites users into a seamless journey, offering features 
+                    such as user registration, secure login, product browsing, cart management with the flexibility to add and 
+                    remove items, streamlined checkout, and an option to provide valuable feedback. On the administrative side, 
+                    Love, Sparkle empowers admins with comprehensive CRUD operations for products and other essential information. 
+                    Additionally, the application boasts a reporting feature, allowing administrators to effortlessly generate and 
+                    download PDF reports for each product.</p>
+
+                <div class="wrapper">
+                    <i class="fa-solid fa-angle-left" data-carousel="3"></i>
+                    <div class="carousel">
+                        <img src="sparkle/1.png" alt="img" draggable="false">
+                        <img src="sparkle/2.png" alt="img" draggable="false">
+                        <img src="sparkle/3.png" alt="img" draggable="false">
+                        <img src="sparkle/4.png" alt="img" draggable="false">
+                        <img src="sparkle/5.png" alt="img" draggable="false">
+                        <img src="sparkle/6.png" alt="img" draggable="false">
+                        <img src="sparkle/7.png" alt="img" draggable="false">
+                        <img src="sparkle/8.png" alt="img" draggable="false">
+                        <img src="sparkle/9.png" alt="img" draggable="false">
+                        <img src="sparkle/10.png" alt="img" draggable="false">
+                        <img src="sparkle/11.png" alt="img" draggable="false">
+                        <img src="sparkle/12.png" alt="img" draggable="false">
+                        <img src="sparkle/13.png" alt="img" draggable="false">
+                        <img src="sparkle/14.png" alt="img" draggable="false">
+                        <img src="sparkle/15.png" alt="img" draggable="false">
+                        <img src="sparkle/16.png" alt="img" draggable="false">
+                        <img src="sparkle/17.png" alt="img" draggable="false">
+                        <img src="sparkle/18.png" alt="img" draggable="false">
+                        <img src="sparkle/19.png" alt="img" draggable="false">
+                        <img src="sparkle/20.png" alt="img" draggable="false">
+                        <img src="sparkle/21.png" alt="img" draggable="false">
+                        <img src="sparkle/22.png" alt="img" draggable="false">
+                    </div>
+                    <i class="fa-solid fa-angle-right" data-carousel="3"></i>
+                </div>
+            </div>
+        </section>
+
+        <!--contact-->
+        <section class="contact" id="contact">
+            <h1><i class="fa-solid fa-phone" style="color: #291b25;"></i>&nbsp Contact Me</h1>
+            <div class="container">
+                <div class="content">
+                    <div class="left-side">
+                        <div class="address details">
+                            <i class="fas fa-map-marker-alt" style="color: #f7715c;"></i>
+                            <div class="topic">Location</div>
+                            <div class="text-one">Paranaque City,</div>
+                            <div class="text-two">Metro Manila, Philippines</div>
+                        </div>
+                        <div class="phone details">
+                            <i class="fas fa-phone-alt" style="color: #f7715c;"></i>
+                            <div class="topic">Phone</div>
+                            <div class="text-one">+63 917 164 2134</div>
+                            <!--<div class="text-two">+0096 3434 5678</div>-->
+                        </div>
+                        <div class="email details">
+                            <i class="fas fa-envelope" style="color: #f7715c;"></i>
+                            <div class="topic">Email</div>
+                            <div class="text-one">chiaraallysa.tinio.cics@ust.edu.ph</div>
+                            <div class="text-two">chiara.allysa.tinio@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="topic-text">Send a message</div>
+                        <p>Get in touch, my inbox is always open.</p>
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="f5c335c9-4417-4834-a359-a0f2b1611237">
+                            <div class="input-box">
+                                <input type="text" name="text" required placeholder="Enter your name">
+                            </div>
+                            <div class="input-box">
+                                <input type="email" name="email" required placeholder="Enter your email">
+                            </div>
+                            <div class="input-box message-box">
+                                <textarea name="message" rows="500" required placeholder="Enter your message"></textarea>
+                            </div>
+                            <div class="button">
+                                <input type="submit" value="Send Now" >
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--script-->
+        <script src = "script.js"></script>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+                            document.addEventListener("DOMContentLoaded", function () {
+                                const typed = new Typed(".typing", {
+                                    strings: ["Android Development", "Web Designing", "Web Development", "Graphic Design"],
+                                    typeSpeed: 50,
+                                    backSpeed: 50,
+                                    loop: true
+                                });
+
+                                const projects = document.querySelectorAll(".project");
+
+                                projects.forEach((project, index) => {
+                                    const carousel = project.querySelector(".carousel");
+                                    const leftArrow = project.querySelector(".fa-angle-left");
+                                    const rightArrow = project.querySelector(".fa-angle-right");
+
+                                    let isDragStart = false,
+                                            isDragging = false,
+                                            prevPageX,
+                                            prevScrollLeft,
+                                            positionDiff;
+
+                                    const showHideIcons = () => {
+                                        let scrollWidth = carousel.scrollWidth - carousel.clientWidth;
+                                        leftArrow.style.display = carousel.scrollLeft === 0 ? "none" : "block";
+                                        rightArrow.style.display = carousel.scrollLeft === scrollWidth ? "none" : "block";
+                                    };
+
+                                    rightArrow.addEventListener("click", () => {
+                                        let firstImg = carousel.querySelectorAll("img")[0];
+                                        let firstImgWidth = firstImg.clientWidth + 14;
+                                        carousel.scrollLeft += firstImgWidth;
+                                        setTimeout(() => showHideIcons(), 60);
+                                    });
+
+                                    leftArrow.addEventListener("click", () => {
+                                        let firstImg = carousel.querySelectorAll("img")[0];
+                                        let firstImgWidth = firstImg.clientWidth + 14;
+                                        carousel.scrollLeft -= firstImgWidth;
+                                        setTimeout(() => showHideIcons(), 60);
+                                    });
+
+                                    const autoSlide = () => {
+                                        if (carousel.scrollLeft - (carousel.scrollWidth - carousel.clientWidth) > -1 || carousel.scrollLeft <= 0)
+                                            return;
+
+                                        positionDiff = Math.abs(positionDiff);
+                                        let firstImg = carousel.querySelectorAll("img")[0];
+                                        let firstImgWidth = firstImg.clientWidth + 14;
+                                        let valDifference = firstImgWidth - positionDiff;
+
+                                        if (carousel.scrollLeft > prevScrollLeft) {
+                                            return (carousel.scrollLeft += positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff);
+                                        }
+
+                                        carousel.scrollLeft -= positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff;
+                                    };
+
+                                    const dragStart = (e) => {
+                                        isDragStart = true;
+                                        prevPageX = e.pageX || e.touches[0].pageX;
+                                        prevScrollLeft = carousel.scrollLeft;
+                                    };
+
+                                    const dragging = (e) => {
+                                        if (!isDragStart)
+                                            return;
+                                        e.preventDefault();
+                                        isDragging = true;
+                                        carousel.classList.add("dragging");
+                                        positionDiff = (e.pageX || e.touches[0].pageX) - prevPageX;
+                                        carousel.scrollLeft = prevScrollLeft - positionDiff;
+                                        showHideIcons();
+                                    };
+
+                                    const dragStop = () => {
+                                        isDragStart = false;
+                                        carousel.classList.remove("dragging");
+                                        if (!isDragging)
+                                            return;
+                                        isDragging = false;
+                                        autoSlide();
+                                    };
+
+                                    carousel.addEventListener("mousedown", dragStart);
+                                    carousel.addEventListener("touchstart", dragStart);
+                                    document.addEventListener("mousemove", dragging);
+                                    carousel.addEventListener("touchmove", dragging);
+                                    document.addEventListener("mouseup", dragStop);
+                                    carousel.addEventListener("touchend", dragStop);
+                                });
+                            });
+
+        </script>
+    </body>
+</html>
